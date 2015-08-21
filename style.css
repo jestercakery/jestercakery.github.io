@@ -1,0 +1,23 @@
+/*body, html
+{	height: 100%;
+	width: 100%;
+	margin: 0
+}
+// Colours
+$black: #1A1A1A;
+$white: white;//snow//whitesmoke//ghostwhite//floralwhite
+$grey: #CCC;
+$purple: #909;
+$yellow: #FC0;
+*/
+#logo
+{	display: block;
+	width: 10%;
+	margin: auto;
+	margin-top: 20%
+}
+@media only screen
+and (max-device-width: 750px)
+{
+	#logo { width: 25% }
+}
